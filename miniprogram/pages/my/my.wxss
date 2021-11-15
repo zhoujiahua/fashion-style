@@ -1,0 +1,41 @@
+@import "/utils/common.wxss";
+
+.navigator-hover button {
+  background-color: #fd6e5e;
+}
+.page {
+  padding: 0 3%;
+}
+.other-navigator-hover button {
+  background-color: #fd6e5e;
+}
+
+.g-bda-userinfo {
+  padding-top: 40rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 70px;
+height: 70px;
+margin: 20rpx;
+margin-bottom: 6rpx;
+border-radius: 50%;
+border: 2px solid #fff;
+
+}
+.i-header{
+  height: 350rpx;
+  text-align: center;
+  width: 95%;
+  margin: 15px auto;
+  border-radius: 20px;
+  box-shadow:0 5px 20px 0 #FDDFD7, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow: 0px 10px 15px  #FDDFD7; */
+  background-image: linear-gradient(90deg,#FD6E5E,#FC8B3A);
+}
+.userinfo-nickname{
+  color: #fff;
+}
